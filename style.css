@@ -61,7 +61,8 @@ header{
         display: none;
         position: absolute;
         margin: 300px 0 0 0;
-        background-color: #00050D;
+        color: #000918;
+        background-color: #ffffff;
         box-shadow: 2px 2px 10px black;
     }
     .nav ul{
@@ -71,8 +72,12 @@ header{
     .nav ul li{
         padding: 20px;
     }
+    .nav ul li a{
+        color: #000918;
+        font-weight: 600;
+    }
     .nav ul li:hover{
-        background-color: #000a1b;
+        background-color: #f1f1f1;
     }
     .active{
         display: block;
