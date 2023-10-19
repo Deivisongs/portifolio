@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-weight: 500;
+}
+/* ------------ Inicio Estilo Header --------------*/
+header ul li:hover , .inicio ul li:hover{
+    transform: scale(1.1);
+}
+.topo{
+    background-image: linear-gradient(to right top, #001234, #011130, #01102c, #010e28, #010d24, #010c21, #000b1e, #000a1b, #000918, #000815, #000611, #00050d);
+}
+header{
+    color: #f1f1f1;
+    display: flex;
+    padding: 15px 2vw 15px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnNav{
+    display: none;
+    color: #f1f1f1;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5vw;
+    font-size: 20px;
+}
+
+.title{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+.flex-itens .logo {
+    width: 50px;
+    height: 50px;
+}
+@media(max-width: 700px){
+    .btnNav{
+        display: block;
+    }
+    .nav{
+        width: 100%;
+        display: none;
+        position: absolute;
+        margin: 300px 0 0 0;
+        background-color: #00050D;
+        box-shadow: 2px 2px 10px black;
+    }
+    .nav ul{
+        display: block;
+        text-align: center;
+    }
+    .nav ul li{
+        padding: 20px;
+    }
+    .nav ul li:hover{
+        background-color: #000a1b;
+    }
+    .active{
+        display: block;
+    }
+}
+/* ------------ Fim Estilo Header --------------*/
+/* ------------ Inicio Estilo Banner Principal --------------*/
+hr{
+    border: 1px solid transparent;
+    box-shadow: 2px 10px 5px #000611;
+}
+.inicio{
+    height: 750px;
+    color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inicio-itens{
+    margin-bottom: 100px;
+}
+.inicio div h1{
+    font-size: 7vw;
+    min-width: 60px;
+}
+.inicio div div{
+    margin: 10px 0 30px 0;
+    display: flex;
+    align-items: center;
+    gap: 6vw;
+}
+
+.inicio div .sub-title{
+    font-size: 2.3vw;
+}
+.inicio div div img{
+    width: 30px;
+
+}
+.inicio div div ul{
+    display: flex;
+    list-style-type: none;
+}
+.inicio .inicio-itens a {
+    margin-right: 2vw;
+}
+.inicio .inicio-itens a button{
+    padding: 0.8vw 1vw;
+    font-size: 18px;
+    box-shadow: 3px 3px 7px #00050d;
+}
+button:hover{
+    transform: rotate(-4deg);
+}
+.env-portifolio{
+    background: rgb(241, 241, 241);
+    color: #00050D;
+    border: 1px solid transparent;
+}
+.env-sobre{
+    background: transparent;
+    color: rgb(241, 241, 241);
+    border: 1px solid #f1f1f1;
+}
+/* ------------ Fim Estilo Banner Principal --------------*/
+/* ------------ Inicio Estilo Skils --------------*/
+.foco{
+    padding: 60px 0px 100px 0;
+    background:#f1f1f1;
+    background-size: 100%;
+    text-align: center;
+}
+.foco h1{
+    padding-bottom: 0px;
+    font-size: 60px;
+    color: #00050D;
+}
+.foco > p{
+    padding-bottom: 80px;
+    font-size: 22px;
+    color: #00050D;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+.itens-foco{
+    width: 17%;
+    height: 300px;
+    min-width: 200px;
+    background-image: linear-gradient(to right top, #001234, #011130, #01102c, #010e28, #010d24, #010c21, #000b1e, #000a1b, #000918, #000815, #000611, #00050d);
+    background-size: 400px;
+    border-radius: 10px;
+    padding: 50px 30px 100px 30px;
+    color: rgb(241, 241, 241) ;
+    line-height: 21px;
+    box-shadow: 5px 5px 10px rgb(201, 201, 201);
+}
+.itens-foco:hover{
+    transform: scale(1.05);
+}
+
+.itens-foco div img{
+    width: 80px;
+
+}
+.itens-foco h2{
+    margin: 40px 0 20px 0;
+}
+/* ------------ Fim Estilo Skils --------------*/
+/* ------------ Inicio Estilo Principal Projetos --------------*/
+.principais-projetos{
+    padding: 80px 10px;
+    background-image: linear-gradient(to right top, #001234, #011130, #01102c, #010e28, #010d24, #010c21, #000b1e, #000a1b, #000918, #000815, #000611, #00050d);
+    background-size: 1800px;
+    text-align: center;
+}
+.principais-projetos .projetos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+}
+.principais-projetos > h1{
+    font-size: 60px;
+    color: rgb(241, 241, 241);
+    margin-bottom: 70px;
+}
+.projeto-itens div > img{
+    width: 40%;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.projeto-itens img{
+    width: 25vw;
+}
+.projeto-itens img:hover{
+    transform: scale(1.1);
+}
+.projeto-itens h2{
+    font-size: 40px;
+    margin: 40px 0;
+    color: rgb(241, 241, 241);
+}
+.projeto-itens p{
+    font-size: 20px;
+    color: rgb(241, 241, 241);
+    margin-bottom: 20px;
+}
+.projetos span img{
+    width: 50px;
+    margin: 20px 7px;
+}
+.projetos span img:hover{
+    opacity: 0.7;
+}
+.btn-todosProjetos{
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+}
+/* ------------ Fim Estilo Principal Projetos --------------*/
+/* ------------ Inicio Conversa --------------*/
+.iniciar-cvs{
+    background-color: rgb(241, 241, 241);
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    color: #00050D;
+}
+.iniciar-cvs div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.iniciar-cvs div button{
+    display: flex;
+    padding: 10px 30px;
+    font-size: 20px;
+    gap: 20px;
+    font-weight: 600;
+    color: rgb(241, 241, 241);
+    border-radius: 40px;
+    border: none;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.iniciar-cvs button p{
+    padding-top: 4px;
+}
+.iniciar-cvs button img{
+    width: 30px;
+}
+.whatsapp{
+    background-color: rgb(0, 185, 40);
+}
+.linkedin{
+    background-color: rgb(0, 0, 134);
+}
+/* ------------ Fim Conversa --------------*/
+/* ------------ Inicio Formação--------------*/
+
+.jornada-aprendizado{
+    text-align: center;
+    padding: 110px 0;
+    background-color: #f1f1f1;
+    border-top: 1px solid rgb(233, 233, 233);
+}
+.jornada-aprendizado h1{
+    font-size: 55px;
+    color: #00050D;
+}
+.jornada-aprendizado img{
+    width: 60vw;
+}
+
+/* ------------ Fim Formação--------------*/
+/* ------------ Inicio redes sociais--------------*/
+.redes-sociais{
+    background-image: linear-gradient(to right top, #001234, #011130, #01102c, #010e28, #010d24, #010c21, #000b1e, #000a1b, #000918, #000815, #000611, #00050d);
+    padding: 100px 0 0 0;
+    text-align: center;
+}
+.redes-sociais div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px 50px 10px;
+}
+.redes-sociais h1{
+    color: #f1f1f1;
+    font-size: 60px;
+}
+.itens-sociais{
+    width: 40%;
+    height: 700px;
+
+}
+.sobreMim-Direita{
+    text-align: start;
+    min-width: 400px;
+}
+.sobreMim-Direita p{
+    font-size: 20px;
+    color: #f1f1f1;
+
+}
+.itens-sociais ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.itens-sociais ul li a button img{
+   width: 40px;
+}
+.itens-sociais ul li > img{
+   margin-bottom: 60px;
+}
+.itens-sociais ul li a button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 0;
+    background: #000b1e;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 100px;
+    box-shadow: 2px 4px 4px #000918;
+}
+.itens-sociais ul li a button:hover{
+    transform: scale(1.07);
+}
