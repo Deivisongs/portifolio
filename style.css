@@ -96,7 +96,6 @@ hr{
 }
 .inicio div h1{
     font-size: 7vw;
-    min-width: 60px;
 }
 .inicio div div{
     margin: 10px 0 30px 0;
@@ -121,7 +120,7 @@ hr{
 }
 .inicio .inicio-itens a button{
     padding: 0.8vw 1vw;
-    font-size: 18px;
+    font-size: 1vw;
     box-shadow: 3px 3px 7px #00050d;
 }
 button:hover{
