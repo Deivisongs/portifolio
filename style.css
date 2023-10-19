@@ -189,9 +189,9 @@ button:hover{
     color: rgb(241, 241, 241);
     margin-bottom: 70px;
 }
-.projeto-itens > img{
+.projeto-itens div> img{
     width: 40%;
-    min-width: 200px;
+    min-width: 300px;
     padding: 20px;
     border-radius: 10px;
 }
