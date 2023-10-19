@@ -321,6 +321,7 @@ button:hover{
     gap: 20px;
     align-items: center;
     justify-content: center;
+    list-style-type: none;
 }
 .itens-sociais ul li a button img{
    width: 40px;
@@ -333,7 +334,7 @@ button:hover{
     align-items: center;
     justify-content: center;
     gap: 25px;
-    width: 400px;
+    width: 300px;
     font-size: 20px;
     font-weight: 600;
     padding: 12px 0;
