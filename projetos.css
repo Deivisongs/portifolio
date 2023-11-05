@@ -109,7 +109,7 @@ header{
 .principais-projetos .projetos-itens{
     width: 27.5%;
     min-width: 300px;
-    max-width: 400px;
+    max-width: 350px;
     background-image: linear-gradient(to right top, #001234, #011130, #01102c, #010e28, #010d24, #010c21, #000b1e, #000a1b, #000918, #000815, #000611, #00050d);
     border-radius: 10px;
     text-align: center;
