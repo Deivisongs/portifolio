@@ -1,0 +1,54 @@
+.cardEstudos {
+  width: 300px;
+  min-width: 300px;
+  height: fit-content;
+  margin: 10px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(213, 213, 213);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(41, 41, 41, 0.222);
+}
+.divImg {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  border: 7px solid rgb(213, 213, 213);
+}
+.divText {
+  text-align: left;
+  color: rgb(58, 58, 58);
+}
+.cardEstudos p {
+  font-size: 13px;
+}
+.verMais {
+  color: rgb(43, 60, 26);
+  border: none;
+  display: none;
+}
+.btnVerMais {
+  padding: 2px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(213, 213, 213);
+  color: rgb(58, 58, 58);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnVerMais:hover {
+  background-color: rgb(194, 194, 194);
+}

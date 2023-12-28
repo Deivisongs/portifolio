@@ -1,0 +1,31 @@
+.mainContant {
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 50px 0 0 0;
+  width: 100%;
+  max-width: 1000px;
+  background-color: rgb(246, 246, 246);
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  color: rgb(43, 60, 26);
+}
+.subtitle {
+  font-weight: 500;
+}
+.subtitle strong {
+  color: rgb(43, 60, 26);
+}
+.iconsSkills {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}

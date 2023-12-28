@@ -1,0 +1,94 @@
+.header {
+  position: fixed;
+  margin-top: 20px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  width: 100%;
+  padding: 0 2.5vw;
+  margin: 0 2vw;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(1, 1, 1, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.051);
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+.title {
+  font-weight: 500;
+}
+.subtitle {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(79, 110, 45);
+}
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 2vw;
+}
+.nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+  color: white;
+}
+.nav a .divIcon {
+  width: 35px;
+  height: 35px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.nav a .divIcon span {
+  font-size: 30px;
+}
+.pNav {
+  display: none;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+}
+.nav a .divIcon:hover .pNav {
+  display: block;
+  position: absolute;
+  transform: translateY(+35px);
+}
+.nav a .divIcon:hover {
+  color: rgb(79, 110, 45);
+}
+.nav a .divIcon:hover span {
+  animation: balance 0.5s infinite alternate;
+}
+@keyframes balance {
+  0% {
+    transform: rotate(+10deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(+5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+}

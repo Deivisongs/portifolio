@@ -1,0 +1,75 @@
+.principalSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    25deg,
+    rgba(4, 5, 2, 1) 25%,
+    rgba(68, 94, 40, 1) 100%
+  );
+}
+.main {
+  width: 100%;
+  max-width: 1000px;
+  padding: 60px 20px;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  color: white;
+}
+.itens {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.divLeft {
+  padding: 20px 0;
+  width: 40%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.divText {
+  width: 60%;
+  min-width: 300px;
+  text-align: left;
+  font-size: 15px;
+  color: white;
+  opacity: 0.9;
+}
+.divText strong {
+  font-weight: 600;
+}
+.divImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.313);
+}
+.divImg img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 874px) {
+  .title {
+    font-size: 50px;
+  }
+  .divLeft {
+    width: 100%;
+  }
+  .divText {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 40px;
+  }
+}
