@@ -1,0 +1,81 @@
+.principalSection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(246, 246, 246);
+}
+.main {
+  width: 100%;
+  max-width: 1000px;
+  padding: 40px 20px 80px 20px;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+  color: rgb(43, 60, 26);
+}
+.subtitle {
+  font-weight: 500;
+}
+
+.divForm {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.formContato {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px 35px;
+  border-radius: 7px;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.173);
+  border: 1px solid rgb(203, 203, 203);
+}
+.formContato input {
+  height: 35px;
+  padding: 0 5px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(160, 160, 160);
+}
+.formContato textarea {
+  padding: 5px 5px;
+  background-color: transparent;
+  max-width: fit-content;
+  min-width: 100%;
+  min-height: 200px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(160, 160, 160);
+}
+.formContato input:focus,
+.formContato textarea:focus {
+  outline: 0;
+  border-bottom: 2px solid rgb(43, 60, 26);
+}
+.btnEnviar {
+  padding: 7px 40px;
+  width: fit-content;
+  background-color: rgb(43, 60, 26);
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+.btnEnviar:hover {
+  transform: scale(1.02);
+}
+@media (max-width: 874px) {
+  .title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 40px;
+  }
+}

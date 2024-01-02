@@ -1,0 +1,98 @@
+.boxProjetos {
+  width: 100%;
+  min-width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 10px;
+  padding: 10px 0px;
+}
+.divFoto {
+  height: 300px;
+}
+.divFoto a img {
+  max-height: 100%;
+}
+.divFoto a img:hover {
+  transform: scale(1.01);
+}
+.divText {
+  width: 55%;
+  max-height: 100%;
+  padding: 10px 20px;
+  text-align: left;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: 15px 0 0 0;
+}
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin: 15px 0;
+}
+.divTags {
+  display: flex;
+  gap: 1%;
+}
+.divBtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.btnVerProjeto a {
+  max-width: fit-content;
+  padding: 3px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnVerProjeto a span {
+  font-size: 30px;
+  color: rgba(68, 94, 40, 1);
+}
+.logoGitHub {
+  width: 27px;
+  margin-bottom: 3px;
+}
+.btnVerProjeto a span:hover {
+  transform: scale(1.1);
+}
+.logoGitHub:hover {
+  transform: scale(1.1);
+}
+.btnVerProjeto a p {
+  font-size: 12px;
+  font-weight: 600;
+}
+.btnVerProjeto a p:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 940px) {
+  .boxProjetos {
+    justify-content: center;
+  }
+  .divText {
+    width: fit-content;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  .divTags {
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .divFoto {
+    height: 200px;
+  }
+  .divTags {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,39 @@
+.button {
+  width: 300px;
+  max-width: 250px;
+  height: 50px;
+  padding: 7px 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 99px;
+  border: 1px solid white;
+  background: linear-gradient(
+    25deg,
+    rgba(4, 5, 2, 1) 25%,
+    rgb(35, 48, 21) 100%
+  );
+}
+.button:hover {
+  transform: scale(1.02);
+  border: 2px solid white;
+}
+.button div {
+  width: 50%;
+  display: flex;
+}
+.button .divImg {
+  width: 30%;
+  padding-right: 10px;
+  display: flex;
+  justify-content: right;
+  border-right: 1px solid white;
+}
+.img {
+  width: 30px;
+}
+.text {
+  color: white;
+}
