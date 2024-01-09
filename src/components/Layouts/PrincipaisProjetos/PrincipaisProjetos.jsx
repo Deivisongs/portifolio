@@ -8,13 +8,13 @@ import TagSkill from "../../TagSkill/TagSkill";
 import react from "../../../img/react.png";
 import Paises from "../../../img/buscaPaises.png";
 import ImgBanco from "../../../img/BancoOnline.svg";
-//import atualizaCadastro from "../../../img/atualizaCadastro.svg";
+import comparaMotos from "../../../img/comparaMotos.png";
 
 function PrincipaisProjetos() {
   const [projetoAtual, setPatual] = useState(0);
   const [projetos] = useState([
     {
-      id: "2",
+      id: "1",
       linkImg: "https://info-word.vercel.app/",
       image: Paises,
       title: "InfoWord",
@@ -28,7 +28,21 @@ function PrincipaisProjetos() {
       github: "https://github.com/Deivisongs/InfoWord",
     },
     {
-      id: "1",
+      id: "2",
+      linkImg: "https://compara-motos.vercel.app/",
+      image: comparaMotos,
+      title: "Compara Motos",
+      descript:
+        "Projeto pessoal criado totalmente do zero, nesse projeto procuro me desenvolver no React",
+      skill1: null,
+      skill2: null,
+      skill3: null,
+      skill4: <TagSkill image={react} text="React" />,
+      projeto: "https://compara-motos.vercel.app/",
+      github: "https://github.com/Deivisongs/ComparaMotos",
+    },
+    {
+      id: "3",
       linkImg: "https://bancoonline.vercel.app/",
       image: ImgBanco,
       title: "Banco Online...",
