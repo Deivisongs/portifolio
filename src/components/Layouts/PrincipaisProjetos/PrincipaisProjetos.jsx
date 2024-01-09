@@ -8,6 +8,7 @@ import TagSkill from "../../TagSkill/TagSkill";
 import react from "../../../img/react.png";
 import Paises from "../../../img/buscaPaises.png";
 import comparaMotos from "../../../img/comparaMotos.svg";
+import banco from "../../../img/BancoOnline.svg"
 
 function PrincipaisProjetos() {
   const [projetoAtual, setPatual] = useState(0);
@@ -105,13 +106,14 @@ function PrincipaisProjetos() {
           </div>
           <div className={style.divTodosProjetos} id="divTodosProjetos">
             <div className={style.divContainerTodosProjetos}>
-              <p>Sem projetos no momento...</p>
-              {/*<CardProjeto
-                image={atualizaCadastro}
+              *<CardProjeto
+                image={banco}
                 title="Banco Online Retirada e Deposito"
-                subtitle="Nesse projeto puxo os dados de uma API externa fdfjdl sfljkdsklf dsfjdsl gfdgfdgd"
+                subtitle="Nesse projeto faço um sistema de retirada e deposito"
                 skill1={<TagSkill image={react} text="React" />}
-              />*/}
+                projeto="https://bancoonline.vercel.app/"
+                github="https://github.com/Deivisongs/Banco"
+              />
             </div>
           </div>
           <button
