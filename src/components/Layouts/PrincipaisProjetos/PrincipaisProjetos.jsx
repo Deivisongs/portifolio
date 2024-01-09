@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "./PrincipaisProjetos.module.css";
 import BoxProjetos from "../../BoxProjetos/BoxProjetos";
-//import CardProjeto from "../../CardProjeto/CardProjeto";
+import CardProjeto from "../../CardProjeto/CardProjeto";
 import TagSkill from "../../TagSkill/TagSkill";
 
 //Import Imagens
@@ -106,7 +106,7 @@ function PrincipaisProjetos() {
           </div>
           <div className={style.divTodosProjetos} id="divTodosProjetos">
             <div className={style.divContainerTodosProjetos}>
-              *<CardProjeto
+              <CardProjeto
                 image={banco}
                 title="Banco Online Retirada e Deposito"
                 subtitle="Nesse projeto faço um sistema de retirada e deposito"
