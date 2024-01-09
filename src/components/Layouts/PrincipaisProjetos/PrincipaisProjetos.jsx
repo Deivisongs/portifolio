@@ -7,14 +7,27 @@ import TagSkill from "../../TagSkill/TagSkill";
 //Import Imagens
 import react from "../../../img/react.png";
 import Paises from "../../../img/buscaPaises.png";
-import ImgBanco from "../../../img/BancoOnline.svg";
-import comparaMotos from "../../../img/comparaMotos.png";
+import comparaMotos from "../../../img/comparaMotos.svg";
 
 function PrincipaisProjetos() {
   const [projetoAtual, setPatual] = useState(0);
   const [projetos] = useState([
     {
       id: "1",
+      linkImg: "https://compara-motos.vercel.app/",
+      image: comparaMotos,
+      title: "Compara Motos",
+      descript:
+        "Projeto pessoal criado totalmente do zero, nesse projeto procuro me desenvolver no React (Em Desenvolvimento)",
+      skill1: null,
+      skill2: null,
+      skill3: null,
+      skill4: <TagSkill image={react} text="React" />,
+      projeto: "https://compara-motos.vercel.app/",
+      github: "https://github.com/Deivisongs/ComparaMotos",
+    },
+    {
+      id: "2",
       linkImg: "https://info-word.vercel.app/",
       image: Paises,
       title: "InfoWord",
@@ -26,20 +39,6 @@ function PrincipaisProjetos() {
       skill4: null,
       projeto: "https://info-word.vercel.app/",
       github: "https://github.com/Deivisongs/InfoWord",
-    },
-    {
-      id: "2",
-      linkImg: "https://compara-motos.vercel.app/",
-      image: comparaMotos,
-      title: "Compara Motos",
-      descript:
-        "Projeto pessoal criado totalmente do zero, nesse projeto procuro me desenvolver no React",
-      skill1: null,
-      skill2: null,
-      skill3: null,
-      skill4: <TagSkill image={react} text="React" />,
-      projeto: "https://compara-motos.vercel.app/",
-      github: "https://github.com/Deivisongs/ComparaMotos",
     },
   ]);
   function mudaMais() {
