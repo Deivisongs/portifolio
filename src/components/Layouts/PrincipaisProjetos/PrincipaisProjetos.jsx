@@ -28,7 +28,7 @@ function PrincipaisProjetos() {
       github: "https://github.com/Deivisongs/InfoWord",
     },
     {
-      id: "0",
+      id: "2",
       linkImg: "https://compara-motos.vercel.app/",
       image: comparaMotos,
       title: "Compara Motos",
@@ -42,7 +42,7 @@ function PrincipaisProjetos() {
       github: "https://github.com/Deivisongs/ComparaMotos",
     },
     {
-      id: "2",
+      id: "3",
       linkImg: "https://bancoonline.vercel.app/",
       image: ImgBanco,
       title: "Banco Online...",
