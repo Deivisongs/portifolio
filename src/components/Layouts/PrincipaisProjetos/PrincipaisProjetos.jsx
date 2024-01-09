@@ -41,20 +41,6 @@ function PrincipaisProjetos() {
       projeto: "https://compara-motos.vercel.app/",
       github: "https://github.com/Deivisongs/ComparaMotos",
     },
-    {
-      id: "3",
-      linkImg: "https://bancoonline.vercel.app/",
-      image: ImgBanco,
-      title: "Banco Online...",
-      descript:
-        "Nesse Projeto crio um simulador de Saque e depósito de dinheiro (Ainda em Desenvolvimento)",
-      skill1: null,
-      skill2: null,
-      skill3: null,
-      skill4: <TagSkill image={react} text="React" />,
-      projeto: "https://bancoonline.vercel.app/",
-      github: "https://github.com/Deivisongs/Banco",
-    },
   ]);
   function mudaMais() {
     if (projetoAtual < projetos.length - 1) {
