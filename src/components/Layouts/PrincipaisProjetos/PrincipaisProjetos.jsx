@@ -10,7 +10,7 @@ import Paises from "../../../img/buscaPaises.png";
 import comparaMotos from "../../../img/comparaMotos.svg";
 import banco from "../../../img/BancoOnline.svg";
 import inovaGest from "../../../img/inovaGest.png";
-import php from "../../../img/php.png";
+import php from "../../../img/php.svg";
 import mySQL from "../../../img/mysql.svg";
 import js from "../../../img/js.png";
 
