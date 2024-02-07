@@ -28,7 +28,7 @@ function SobreMim() {
               <BtnSocial
                 link="https://github.com/Deivisongs"
                 img={GitHub}
-                text="Linkedin"
+                text="GitHub"
               />
               <BtnSocial
                 link="https://api.whatsapp.com/send?phone=5531995882112&text=Oi,%20tudo%20bem?"
