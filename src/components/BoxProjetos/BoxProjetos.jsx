@@ -20,7 +20,7 @@ function BoxProjetos({
   return (
     <div className={style.boxProjetos}>
       <div className={style.divFoto}>
-        <a href={linkImg} className={style.image}>
+        <a href={linkImg} className={style.image} target="_blank" rel="noreferrer">
           <img src={image} alt="" />
         </a>
       </div>
