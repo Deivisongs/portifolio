@@ -8,13 +8,31 @@ import TagSkill from "../../TagSkill/TagSkill";
 import react from "../../../img/react.png";
 import Paises from "../../../img/buscaPaises.png";
 import comparaMotos from "../../../img/comparaMotos.svg";
-import banco from "../../../img/BancoOnline.svg"
+import banco from "../../../img/BancoOnline.svg";
+import inovaGest from "../../../img/inovaGest.png";
+import php from "../../../img/php.png";
+import mySQL from "../../../img/mysql.svg";
+import js from "../../../img/js.png";
 
 function PrincipaisProjetos() {
   const [projetoAtual, setPatual] = useState(0);
   const [projetos] = useState([
     {
       id: "1",
+      linkImg: "https://inovagest.000webhostapp.com/",
+      image: inovaGest,
+      title: "InovaGest",
+      descript:
+        "Sistema Gerenciamento de Estoque e Financeiro focado no Pequeno Empreendedor",
+      skill1: null,
+      skill2: <TagSkill image={js} text="JavaScript" />,
+      skill3: <TagSkill image={php} text="PHP" />,
+      skill4: <TagSkill image={mySQL} text="MySQL" />,
+      projeto: "https://inovagest.000webhostapp.com/",
+      github: "https://github.com/Deivisongs/InovaGest",
+    },
+    {
+      id: "2",
       linkImg: "https://compara-motos.vercel.app/",
       image: comparaMotos,
       title: "Compara Motos",
@@ -26,20 +44,6 @@ function PrincipaisProjetos() {
       skill4: <TagSkill image={react} text="React" />,
       projeto: "https://compara-motos.vercel.app/",
       github: "https://github.com/Deivisongs/ComparaMotos",
-    },
-    {
-      id: "2",
-      linkImg: "https://info-word.vercel.app/",
-      image: Paises,
-      title: "InfoWord",
-      descript:
-        "Nesse projeto fiz um site que busca informações de uma API e mostra dados dos países em cards.",
-      skill1: <TagSkill image={react} text="React" />,
-      skill2: null,
-      skill3: null,
-      skill4: null,
-      projeto: "https://info-word.vercel.app/",
-      github: "https://github.com/Deivisongs/InfoWord",
     },
   ]);
   function mudaMais() {
@@ -106,6 +110,14 @@ function PrincipaisProjetos() {
           </div>
           <div className={style.divTodosProjetos} id="divTodosProjetos">
             <div className={style.divContainerTodosProjetos}>
+              <CardProjeto
+                image={Paises}
+                title="InfoWord"
+                subtitle="Busca informações de uma API e mostra dados dos países em cards"
+                skill1={<TagSkill image={react} text="React" />}
+                projeto="https://info-word.vercel.app/"
+                github="https://github.com/Deivisongs/InfoWord"
+              />
               <CardProjeto
                 image={banco}
                 title="Banco Online Retirada e Deposito"
