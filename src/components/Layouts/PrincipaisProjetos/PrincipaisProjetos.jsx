@@ -23,7 +23,7 @@ function PrincipaisProjetos() {
       image: inovaGest,
       title: "InovaGest",
       descript:
-        "Sistema Gerenciamento de Estoque e Financeiro focado no Pequeno Empreendedor Usuario: admin | Senha:1234",
+        "Sistema Gerenciamento de Estoque e Financeiro focado no Pequeno Empreendedor (USER: admin | SENHA:1234)",
       skill1: null,
       skill2: <TagSkill image={js} text="JavaScript" />,
       skill3: <TagSkill image={php} text="PHP" />,
