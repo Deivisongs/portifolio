@@ -10,7 +10,7 @@ import Git from "../../../img/git.svg";
 import Github from "../../../img/github.svg";
 import mysql from "../../../img/mysql.svg";
 //import vite from "../../../img/vite.svg";
-import php from "../../../img/php.png";
+import php from "../../../img/php.svg";
 
 function Skills() {
   return (
