@@ -56,7 +56,7 @@ function SobreMim() {
               Minha jornada na programação está apenas começando, e estou
               determinado a expandir meu conhecimento e habilidades, mantendo-me
               atualizado com as tendências e práticas recomendadas no mundo da
-              programação front-end.
+              programação Full-Stack.
             </p>
             <br />
             <p>
