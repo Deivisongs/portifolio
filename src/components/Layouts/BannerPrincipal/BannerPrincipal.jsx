@@ -7,17 +7,17 @@ function BannerPrincipal() {
   return (
     <section className={style.container}>
       <div className={style.principalText}>
-        <h1>Front-End Developer</h1>
+        <h1>Full-Stack Developer</h1>
         <span className={style.subtitle}>
           <p>Maior gosto é tornar ideias em projetos.</p>
           <span className={style.iconsSocial}>
-            <a href="#">
+            <a href="https://github.com/Deivisongs/">
               <div className={style.elementoIcon}>
                 <img src={GitHub} alt="Conta GitHub" />
                 <p className={style.pElementoIcon}>GitHub</p>
               </div>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/deivison-gon%C3%A7alves-62b23523a/">
               <div className={style.elementoIcon}>
                 <img src={LinkedIn} alt="Conta GitHub" />
                 <p className={style.pElementoIcon}>Linkedin</p>
