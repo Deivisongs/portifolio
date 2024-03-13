@@ -47,7 +47,7 @@ function SobreMim() {
             <p>
               Desde 2022, estou matriculado no Senai, onde venho aprimorando
               minhas habilidades em programação. Minha ambição é construir uma
-              carreira sólida na área de programação front-end, e até agora,
+              carreira sólida na área de programação Full-Stack, e até agora,
               adquirir conhecimentos fundamentais em{" "}
               <strong>HTML, CSS e JavaScript</strong>.
             </p>
