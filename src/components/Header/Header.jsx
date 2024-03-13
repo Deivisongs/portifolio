@@ -6,7 +6,7 @@ function Header() {
       <main className={style.main}>
         <div className={style.logo}>
           <p className={style.title}>Deivison G. Sousa</p>
-          <p className={style.subtitle}>Front-end Developer</p>
+          <p className={style.subtitle}>Full-Stack Developer</p>
         </div>
         <nav className={style.nav}>
           <a href="#projetos">
