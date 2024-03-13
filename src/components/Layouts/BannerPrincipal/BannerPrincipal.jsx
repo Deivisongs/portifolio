@@ -11,13 +11,13 @@ function BannerPrincipal() {
         <span className={style.subtitle}>
           <p>Maior gosto é tornar ideias em projetos.</p>
           <span className={style.iconsSocial}>
-            <a href="https://github.com/Deivisongs/">
+            <a href="https://github.com/Deivisongs/" target="_blank">
               <div className={style.elementoIcon}>
                 <img src={GitHub} alt="Conta GitHub" />
                 <p className={style.pElementoIcon}>GitHub</p>
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/deivison-gon%C3%A7alves-62b23523a/">
+            <a href="https://www.linkedin.com/in/deivison-gon%C3%A7alves-62b23523a/" target="_blank">
               <div className={style.elementoIcon}>
                 <img src={LinkedIn} alt="Conta GitHub" />
                 <p className={style.pElementoIcon}>Linkedin</p>
