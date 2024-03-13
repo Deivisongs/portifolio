@@ -49,7 +49,7 @@ function SobreMim() {
               minhas habilidades em programação. Minha ambição é construir uma
               carreira sólida na área de programação Full-Stack, e até agora,
               adquirir conhecimentos fundamentais em{" "}
-              <strong>HTML, CSS e JavaScript</strong>.
+              <strong>HTML, CSS, JavaScript, MySQL, PHP</strong>.
             </p>
             <br />
             <p>
