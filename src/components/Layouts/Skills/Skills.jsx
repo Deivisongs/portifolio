@@ -9,7 +9,8 @@ import react from "../../../img/react.png";
 import Git from "../../../img/git.svg";
 import Github from "../../../img/github.svg";
 import mysql from "../../../img/mysql.svg";
-import vite from "../../../img/vite.svg";
+//import vite from "../../../img/vite.svg";
+import php from "../../../img/php.png";
 
 function Skills() {
   return (
@@ -63,10 +64,10 @@ function Skills() {
             subtitle2="Utiliza a linguagem SQL como interface."
           />
           <BoxSkill
-            image={vite}
-            title="Vite"
-            subtitle="Vite é um servidor de desenvolvimento local."
-            subtitle2="Usado por padrão pelo Vue e para modelos de projeto React."
+            image={php}
+            title="PHP"
+            subtitle="PHP é uma linguagem de script do tipo server-side com diversos propósitos."
+            subtitle2="Uso em conjunto com MySQL para a criação dos Sistemas e Interfaces."
           />
         </div>
       </div>
