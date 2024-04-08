@@ -45,21 +45,7 @@ function PrincipaisProjetos() {
       skill4: <TagSkill image={react} text="React" />,
       projeto: "https://onbank.vercel.app/",
       github: "https://github.com/Deivisongs/On-Bank",
-    },
-    {
-      id: "3",
-      linkImg: "https://compara-motos.vercel.app/",
-      image: comparaMotos,
-      title: "Compara Motos",
-      descript:
-        "Projeto pessoal criado totalmente do zero, nesse projeto procuro me desenvolver no React (Em Desenvolvimento)",
-      skill1: null,
-      skill2: null,
-      skill3: null,
-      skill4: <TagSkill image={react} text="React" />,
-      projeto: "https://compara-motos.vercel.app/",
-      github: "https://github.com/Deivisongs/ComparaMotos",
-    },
+    }
   ]);
   function mudaMais() {
     if (projetoAtual < projetos.length - 1) {
@@ -128,7 +114,7 @@ function PrincipaisProjetos() {
               <CardProjeto
                 image={comparaMotos}
                 title="Compara Motos"
-                subtitle="Projeto pessoal criado em React (Em Desenvolvimento)"
+                subtitle="Projeto pessoal criado em React"
                 skill1={<TagSkill image={react} text="React" />}
                 projeto="https://compara-motos.vercel.app/"
                 github="https://github.com/Deivisongs/ComparaMotos"
