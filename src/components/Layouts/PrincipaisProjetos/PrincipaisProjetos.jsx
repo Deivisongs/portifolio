@@ -35,7 +35,7 @@ function PrincipaisProjetos() {
     {
       id: "2",
       linkImg: "https://onbank.vercel.app/",
-      image: {OnBank},
+      image: onBank,
       title: "On Bank",
       descript:
         "O On Bank é um projeto pessoal em desenvolvimento, Um sistema de banco online, intuitivo e de fácil acesso.",
