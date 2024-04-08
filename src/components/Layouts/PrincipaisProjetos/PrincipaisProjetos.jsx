@@ -13,6 +13,7 @@ import inovaGest from "../../../img/inovaGest.png";
 import php from "../../../img/php.svg";
 import mySQL from "../../../img/mysql.svg";
 import js from "../../../img/js.png";
+import onBank from "../../../img/onBank.png"
 
 function PrincipaisProjetos() {
   const [projetoAtual, setPatual] = useState(0);
@@ -33,6 +34,20 @@ function PrincipaisProjetos() {
     },
     {
       id: "2",
+      linkImg: "https://onbank.vercel.app/",
+      image: OnBank,
+      title: "On Bank",
+      descript:
+        "O On Bank é um projeto pessoal em desenvolvimento, Um sistema de banco online, intuitivo e de fácil acesso.",
+      skill1: null,
+      skill2: null,
+      skill3: null,
+      skill4: <TagSkill image={react} text="React" />,
+      projeto: "https://onbank.vercel.app/",
+      github: "https://github.com/Deivisongs/On-Bank",
+    },
+    {
+      id: "3",
       linkImg: "https://compara-motos.vercel.app/",
       image: comparaMotos,
       title: "Compara Motos",
