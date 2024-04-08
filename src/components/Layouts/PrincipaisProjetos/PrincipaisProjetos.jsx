@@ -126,6 +126,14 @@ function PrincipaisProjetos() {
           <div className={style.divTodosProjetos} id="divTodosProjetos">
             <div className={style.divContainerTodosProjetos}>
               <CardProjeto
+                image={comparaMotos}
+                title="Compara Motos"
+                subtitle="Projeto pessoal criado em React (Em Desenvolvimento)"
+                skill1={<TagSkill image={react} text="React" />}
+                projeto="https://compara-motos.vercel.app/"
+                github="https://github.com/Deivisongs/ComparaMotos"
+              />
+              <CardProjeto
                 image={Paises}
                 title="InfoWord"
                 subtitle="Busca informações de uma API e mostra dados dos países em cards"
