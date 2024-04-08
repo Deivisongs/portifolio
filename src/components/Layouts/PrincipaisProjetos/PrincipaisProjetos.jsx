@@ -114,7 +114,7 @@ function PrincipaisProjetos() {
               <CardProjeto
                 image={comparaMotos}
                 title="Compara Motos"
-                subtitle="Projeto pessoal criado em React"
+                subtitle="Projeto pessoal sobre motos criado em React"
                 skill1={<TagSkill image={react} text="React" />}
                 projeto="https://compara-motos.vercel.app/"
                 github="https://github.com/Deivisongs/ComparaMotos"
