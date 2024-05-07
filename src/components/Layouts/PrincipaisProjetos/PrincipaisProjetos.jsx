@@ -13,13 +13,28 @@ import inovaGest from "../../../img/inovaGest.png";
 import php from "../../../img/php.svg";
 import mySQL from "../../../img/mysql.svg";
 import js from "../../../img/js.png";
-import onBank from "../../../img/onBank.png"
+import onBank from "../../../img/onBank.png";
+import gerenteFast from "../../../img/gerenteFast.png";
 
 function PrincipaisProjetos() {
   const [projetoAtual, setPatual] = useState(0);
   const [projetos] = useState([
     {
       id: "1",
+      linkImg: "https://gerentefast.vercel.app/",
+      image: gerenteFast,
+      title: "GerenteFast",
+      descript:
+        "O GerenteFast é um sistema de gerenciamento de equipes, focado no pequeno comercio! O sistema atualmente esta sendo utilizado em algumas lojas em BH.",
+      skill1: null,
+      skill2: <TagSkill image={js} text="JavaScript" />,
+      skill3: <TagSkill image={php} text="PHP" />,
+      skill4: <TagSkill image={mySQL} text="MySQL" />,
+      projeto: "https://gerentefast.vercel.app/",
+      github: "https://github.com/Deivisongs/GerenteFast",
+    },
+    {
+      id: "2",
       linkImg: "https://inovagest.000webhostapp.com/",
       image: inovaGest,
       title: "InovaGest",
@@ -33,7 +48,7 @@ function PrincipaisProjetos() {
       github: "https://github.com/Deivisongs/InovaGest",
     },
     {
-      id: "2",
+      id: "3",
       linkImg: "https://onbank.vercel.app/",
       image: onBank,
       title: "On Bank",
